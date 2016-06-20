@@ -1,0 +1,31 @@
+{
+  "name": "ubs-plugins",
+  "version": "1.0.0",
+  "description": "Unified Build System plugins",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oorabona/ubs-plugins.git"
+  },
+  "keywords": [
+    "unified",
+    "build",
+    "system",
+    "plugins",
+    "clean",
+    "grab",
+    "package",
+    "json"
+  ],
+  "author": "Olivier Orabona",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oorabona/ubs-plugins/issues"
+  },
+  "files": [
+    "src"
+  ],
+  "homepage": "https://github.com/oorabona/ubs-plugins#readme"
+}
