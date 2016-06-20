@@ -1,9 +1,9 @@
 {
   "name": "ubs-plugins",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unified Build System plugins",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "./node_modules/.bin/coffee -b -c -o src/ src/"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,8 @@
   "files": [
     "src"
   ],
-  "homepage": "https://github.com/oorabona/ubs-plugins#readme"
+  "homepage": "https://github.com/oorabona/ubs-plugins#readme",
+  "dependencies": {
+    "coffee-script": "^1.10.0"
+  }
 }
